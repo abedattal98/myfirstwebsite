@@ -53,7 +53,7 @@ function getdetails(){
      )
 }
 function useApi(){
-  fetch('http://localhost:3000/rawaa')
+  fetch('https://obscure-retreat-73939.herokuapp.com/rawaa')
   .then(response => response.json())
   .then(json => {
       console.log("bye")
@@ -80,7 +80,7 @@ function useApi(){
 }
 
 function useApiFlag(){
-  fetch('http://localhost:3000/rawaa2')
+  fetch('https://obscure-retreat-73939.herokuapp.com/rawaa')
   .then(response => response.json())
   .then(json => {
       console.log("bye")
