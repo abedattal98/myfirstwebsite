@@ -1,0 +1,65 @@
+<html>
+    <body>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<div id='MyContainer' >
+
+    <h1 id="namee"></h1>
+    <h1 id="region"></h1>
+    <h1 id="currency"></h1>
+    <h1 id="population"></h1>
+    <img src="" id="flag"></h1>
+</div>
+<select class="button">
+    <option onchange="myFunction()" >hii</option>
+    <option onchange="myFunction()" >bye</option>
+    <option onchange="myFunction()">hello</option>
+    <option onchange="myFunction()">hiz</option>
+
+</select>
+<select id="locality-dropdown" class="locality" onchange="getdetails()">
+<br>
+
+</select>
+
+<button id="Rasha"  type="button" class="btn btn-primary" onclick="GetCountries()" >click me</button>
+<button type="button" class="btn btn-success" onclick="useApi()" >click me2</button>
+<button id="apicall" class="btn btn-secondary" type="button" onclick="useApiFlag()" >click me</button>
+<button id="apicall" class="btn btn-secondary" type="button" onclick="useApiFlag()" >click me</button>
+
+<input type="text" id="ronyy">
+<div>
+<ul id="mainul"></ul>
+</div>
+<div id='rawaa'></div>
+
+<!-- <script>
+    var x =`<div class="card" style="width: 18rem;">
+            <img src="https://cdn.pixabay.com/photo/2016/01/19/15/09/disney-1149179_960_720.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            </div> `;
+ fetch('http://localhost:3000/rawaa')
+    .then(response => response.json())
+    .then(json => {
+        console.log("hi")
+        console.log(json)
+        var rawaa = document.getElementById('rawaa');
+        for (let i = 0; i < json.length; i++) {
+        var mydiv= document.createElement('div')
+        mydiv.innerHTML= x;
+        rawaa.appendChild(mydiv);            
+        }
+    
+    }) 
+</script> -->
+<!-- <script src="write_excel.js"></script> -->
+<!-- <script src="app.js"></script> -->
+
+<script src="getfunctions.js"></script>
+<link rel="stylesheet" href="style.css">
+
+</body>
+</html>
