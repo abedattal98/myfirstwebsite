@@ -80,7 +80,7 @@ function useApi(){
 }
 
 function useApiFlag(){
-  fetch('https://obscure-retreat-73939.herokuapp.com/rawaa')
+  fetch('https://obscure-retreat-73939.herokuapp.com/rawaa2')
   .then(response => response.json())
   .then(json => {
       console.log("bye")
